@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Assignment 17 - Exceptions:jar">
+    <output-path>$PROJECT_DIR$/Assignment 17 - Exceptions/out/artifacts/</output-path>
+    <root id="archive" name="Assignment 17 - Exceptions.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Assignment 19 - Exceptions/resources/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Assignment 17 - Exceptions" />
+    </root>
+  </artifact>
+</component>
