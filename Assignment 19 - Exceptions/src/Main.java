@@ -1,31 +1,37 @@
-import java.io.Console;
+import org.beryx.textio.TextIO;
+import org.beryx.textio.TextIoFactory;
+import org.beryx.textio.TextTerminal;
+
 import java.util.InputMismatchException;
 
 public class Main {
-    private static final Console console = System.console();
+    private static final TextIO textIO = TextIoFactory.getTextIO();
+    private static final TextTerminal<?> terminal = textIO.getTextTerminal();
+
     private static Boolean isValidInput = false;
     private static final Users users = new Users("resources/users.tsv") ;
 
     public static void main(String[] args)  {
         while (!isValidInput) {
-            console.printf("Please enter CPR: ");
-            String cpr = console.readLine();
+            String cpr = textIO.newStringInputReader()
+                    .read("Please enter CPR: ");
 
-            System.out.print("Please enter password: ");
-            String password = String.copyValueOf(console.readPassword());
+            String password = textIO.newStringInputReader()
+                    .withInputMasking(true)
+                    .read("Please enter password: ");
 
             try {
                 isValidInput = NemIdAuthorizer.isValidInput(users, cpr, password);
             } catch (InputMismatchException e) {
-                console.printf("CPR should be 10 digits long, please try again.%n");
+                terminal.printf("CPR should be 10 digits long, please try again.%n");
                 continue;
             } catch (NoSuchUserException e) {
-                console.printf("That user doesn't exist, please try again.%n");
+                terminal.printf("That user doesn't exist, please try again.%n");
                 continue;
             }
 
             if (isValidInput) {
-                console.printf("Valid input, thank you.%n");
+                terminal.printf("Valid input, thank you.%n");
             }
         }
     }

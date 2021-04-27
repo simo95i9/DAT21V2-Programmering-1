@@ -1,11 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Assignment 17" type="ShConfigurationType">
-    <option name="SCRIPT_TEXT" value="java -jar &quot;out/artifacts/Assignment 17 - Exceptions.jar&quot;" />
+  <configuration default="false" name="Assignment 19" type="ShConfigurationType">
+    <option name="SCRIPT_TEXT" value="java -jar &quot;out/artifacts/Assignment 19 - Exceptions.jar&quot;" />
     <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
     <option name="SCRIPT_PATH" value="" />
     <option name="SCRIPT_OPTIONS" value="" />
     <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-    <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment 17 - Exceptions/" />
+    <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment 19 - Exceptions/" />
     <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
     <option name="INTERPRETER_PATH" value="/usr/local/bin/fish" />
     <option name="INTERPRETER_OPTIONS" value="" />
@@ -13,9 +13,7 @@
     <option name="EXECUTE_SCRIPT_FILE" value="false" />
     <envs />
     <method v="2">
-      <option name="BuildArtifacts" enabled="true">
-        <artifact name="Assignment 17 - Exceptions:jar" />
-      </option>
+      <option name="BuildArtifacts" enabled="true" />
     </method>
   </configuration>
 </component>
