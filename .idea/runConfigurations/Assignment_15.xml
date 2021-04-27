@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Assignment 15" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="StudentAnalytics" />
+    <module name="Assignment 15 - Files and Exceptions" />
+    <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
