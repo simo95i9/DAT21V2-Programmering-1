@@ -1,2 +1,8 @@
-/lib/*
+/lib/awt-color-factory-1.0.1.jar
+/lib/jline-2.14.6.jar
+/lib/slf4j-api-1.8.0-beta4.jar
+/lib/slf4j-api-2.0.0-alpha1.jar
+/lib/slf4j-jdk14-2.0.0-alpha1.jar
+/lib/text-io-3.4.1.jar
+
 /out/*
