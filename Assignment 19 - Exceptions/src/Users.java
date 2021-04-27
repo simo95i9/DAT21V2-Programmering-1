@@ -15,6 +15,10 @@ public class Users {
         }
     }
 
+    public User getUser(String cpr) {
+        return this.users.getOrDefault(cpr, new User(null,null));
+    }
+
     public Boolean exist(String normalizedCpr) {
         return users.containsKey(normalizedCpr);
     }

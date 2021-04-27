@@ -1,7 +1,7 @@
-public class NoSuchUserException extends RuntimeException {
+public class NoSuchUserException extends Exception {
 
-    public NoSuchUserException() {
-        super("No such user found");
+    public NoSuchUserException(String s) {
+        super(s);
     }
 
 }

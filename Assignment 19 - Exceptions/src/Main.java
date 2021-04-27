@@ -12,7 +12,10 @@ public class Main {
     private static final Users users = new Users("resources/users.tsv") ;
 
     public static void main(String[] args)  {
+        terminal.setBookmark("");
         while (!isValidInput) {
+            terminal.resetToBookmark("");
+
             String cpr = textIO.newStringInputReader()
                     .read("Please enter CPR: ");
 
@@ -22,12 +25,20 @@ public class Main {
 
             try {
                 isValidInput = NemIdAuthorizer.isValidInput(users, cpr, password);
-            } catch (InputMismatchException e) {
-                terminal.printf("CPR should be 10 digits long, please try again.%n");
+            } catch (InvalidInputException e) {
+                textIO.newStringInputReader()
+                        .withMinLength(0)
+                        .read(String.format("CPR should be 10 digits long. Press enter to try again.%n"));
                 continue;
             } catch (NoSuchUserException e) {
-                terminal.printf("That user doesn't exist, please try again.%n");
+                textIO.newStringInputReader()
+                        .withMinLength(0)
+                        .read(String.format("That user doesn't exist. Press enter try again.%n"));
                 continue;
+            } catch (IncorrectPasswordException e) {
+                textIO.newStringInputReader()
+                        .withMinLength(0)
+                        .read(String.format("Password is incorrect. Press enter to try again.%n"));
             }
 
             if (isValidInput) {
