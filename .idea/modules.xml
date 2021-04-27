@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Assignment 1 - Variables and Operators/Assignment 1 - Variables and Operators.iml" filepath="$PROJECT_DIR$/Assignment 1 - Variables and Operators/Assignment 1 - Variables and Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment 01 - Variables and Operators/Assignment 01 - Variables and Operators.iml" filepath="$PROJECT_DIR$/Assignment 01 - Variables and Operators/Assignment 01 - Variables and Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment 02 - Input and Output/Assignment 02 - Input and Output.iml" filepath="$PROJECT_DIR$/Assignment 02 - Input and Output/Assignment 02 - Input and Output.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment 03 - Variables, Operators, and IO/Assignment 03 - Variables, Operators, and IO.iml" filepath="$PROJECT_DIR$/Assignment 03 - Variables, Operators, and IO/Assignment 03 - Variables, Operators, and IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment 04 - Methods/Assignment 04 - Methods.iml" filepath="$PROJECT_DIR$/Assignment 04 - Methods/Assignment 04 - Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment 05 - Loops and Strings/Assignment 05 - Loops and Strings.iml" filepath="$PROJECT_DIR$/Assignment 05 - Loops and Strings/Assignment 05 - Loops and Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment 06 - Methods and Loops/Assignment 06 - Methods and Loops.iml" filepath="$PROJECT_DIR$/Assignment 06 - Methods and Loops/Assignment 06 - Methods and Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment 07 - Conditionals and Logic/Assignment 07 - Conditionals and Logic.iml" filepath="$PROJECT_DIR$/Assignment 07 - Conditionals and Logic/Assignment 07 - Conditionals and Logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment 08 - OOP 1/Assignment 08 - OOP 1.iml" filepath="$PROJECT_DIR$/Assignment 08 - OOP 1/Assignment 08 - OOP 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment 09 - Arrays/Assignment 09 - Arrays.iml" filepath="$PROJECT_DIR$/Assignment 09 - Arrays/Assignment 09 - Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Assignment 11 - ArrayLists/Assignment 11 - ArrayLists.iml" filepath="$PROJECT_DIR$/Assignment 11 - ArrayLists/Assignment 11 - ArrayLists.iml" />
       <module fileurl="file://$PROJECT_DIR$/Assignment 12 - OOP and ArrayList/Assignment 12 - OOP and ArrayList.iml" filepath="$PROJECT_DIR$/Assignment 12 - OOP and ArrayList/Assignment 12 - OOP and ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Assignment 13 - Inheritance and Abstract Classes/Assignment 13 - Inheritance and Abstract Classes.iml" filepath="$PROJECT_DIR$/Assignment 13 - Inheritance and Abstract Classes/Assignment 13 - Inheritance and Abstract Classes.iml" />
@@ -10,14 +18,6 @@
       <module fileurl="file://$PROJECT_DIR$/Assignment 15 - Files and Exceptions/Assignment 15 - Files and Exceptions.iml" filepath="$PROJECT_DIR$/Assignment 15 - Files and Exceptions/Assignment 15 - Files and Exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Assignment 17 - Inheritance and Files/Assignment 17 - Inheritance and Files.iml" filepath="$PROJECT_DIR$/Assignment 17 - Inheritance and Files/Assignment 17 - Inheritance and Files.iml" />
       <module fileurl="file://$PROJECT_DIR$/Assignment 19 - Exceptions/Assignment 19 - Exceptions.iml" filepath="$PROJECT_DIR$/Assignment 19 - Exceptions/Assignment 19 - Exceptions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignment 2 - Input and Output/Assignment 2 - Input and Output.iml" filepath="$PROJECT_DIR$/Assignment 2 - Input and Output/Assignment 2 - Input and Output.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignment 3 - Variables, Operators, and IO/Assignment 3 - Variables, Operators, and IO.iml" filepath="$PROJECT_DIR$/Assignment 3 - Variables, Operators, and IO/Assignment 3 - Variables, Operators, and IO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignment 4 - Methods/Assignment 4 - Methods.iml" filepath="$PROJECT_DIR$/Assignment 4 - Methods/Assignment 4 - Methods.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignment 5 - Loops and Strings/Assignment 5 - Loops and Strings.iml" filepath="$PROJECT_DIR$/Assignment 5 - Loops and Strings/Assignment 5 - Loops and Strings.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignment 6 - Methods and Loops/Assignment 6 - Methods and Loops.iml" filepath="$PROJECT_DIR$/Assignment 6 - Methods and Loops/Assignment 6 - Methods and Loops.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignment 7 - Conditionals and Logic/Assignment 7 - Conditionals and Logic.iml" filepath="$PROJECT_DIR$/Assignment 7 - Conditionals and Logic/Assignment 7 - Conditionals and Logic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignment 8 - OOP 1/Assignment 8 - OOP 1.iml" filepath="$PROJECT_DIR$/Assignment 8 - OOP 1/Assignment 8 - OOP 1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignment 9 - Arrays/Assignment 9 - Arrays.iml" filepath="$PROJECT_DIR$/Assignment 9 - Arrays/Assignment 9 - Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmering 1.iml" filepath="$PROJECT_DIR$/Programmering 1.iml" />
     </modules>
   </component>
