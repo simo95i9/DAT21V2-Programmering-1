@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.function.Predicate;
 
 public class Password {
 
@@ -25,37 +24,33 @@ public class Password {
         Boolean hasNumbers = stringHasCharactersInCharacterSet(password, NUMBERS);
         Boolean hasLetters = stringHasCharactersInCharacterSet(password, LETTERS);
         Boolean hasSpecials = stringHasCharactersInCharacterSet(password, SPECIALS);
-        Boolean hasIllegalCharacters = stringHasCharactersOutsideCharacterSet(password, NUMBERS+LETTERS+SPECIALS);
+        Boolean hasIllegalCharacters = stringHasCharactersOutsideCharacterSet(password, NUMBERS + LETTERS + SPECIALS);
         Boolean hasRepeats = hasRepeats(password, MAX_REPEATS);
-        Boolean hasRightLength =  numberIsInRange(password.length(), MIN_LENGTH, MAX_LENGTH);
+        Boolean hasRightLength = numberIsInRange(password.length(), MIN_LENGTH, MAX_LENGTH);
         Boolean hasCPR = password.contains(CPR);
 
-        return  hasLetters
-                && hasNumbers
-                && hasRightLength
-                && !hasRepeats
-                && !hasIllegalCharacters
-                && !hasCPR;
+        return hasLetters && hasNumbers && hasRightLength && !hasRepeats && !hasIllegalCharacters && !hasCPR;
     }
 
     private static Boolean hasRepeats(String string, Integer repeats) {
-        return Arrays.stream(string.split("")) // Split string into letters
-                .distinct() // Only include unique letters
-                .map( c -> string.contains( c.repeat(repeats) )) // For each letter, check if it occurs x times in a row
-                .reduce(false, Boolean::logicalOr); // Do a logical OR on the results to find if any the checks was true
+        return Arrays.stream(string.split(""))              // Split string into letters
+                .distinct()                                         // Only include unique letters
+                .map(c -> string.contains(c.repeat(repeats)))       // For each letter, check if it occurs x times in a row
+                .reduce(false, Boolean::logicalOr);         // Do a logical OR on the results to find if any the checks was true
     }
 
     private static Boolean stringHasCharactersOutsideCharacterSet(String string, String characterSet) {
-        return !Arrays.stream(string.split("")) // Split string into letters
-                .distinct() // Only include unique letters
-                .allMatch( characterSet::contains ); // Find if all test were true and flip boolean, i.e. at least one was outside the character set.
+        return !Arrays.stream(string.split(""))     // Split string into letters
+                .distinct()                                 // Only include unique letters
+                .allMatch(characterSet::contains);          // check if all chars are in char-set and flip result
+        // i.e. true if at least one char is outside char-set
     }
 
     private static Boolean stringHasCharactersInCharacterSet(String string, String characterSet) {
         // For each letter, check if it's contained in the character set
         return Arrays.stream(string.split("")) // Split string into letters
                 .distinct() // Only include unique letters
-                .anyMatch( characterSet::contains); // Find if any test were true, i.e. at least one were in the character set.
+                .anyMatch(characterSet::contains); // true if at least one char is in char-set
 
     }
 
